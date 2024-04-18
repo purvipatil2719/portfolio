@@ -181,3 +181,16 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
+
+.big-text {
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.home {
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold;
+  text-align: center;
+}

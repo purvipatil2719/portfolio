@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Purvi
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Software Engineer, specializing in Frontend development along
+          with a bit of backend, building "Robust Applications".
         </p>
       </div>
 
@@ -64,11 +64,14 @@ const About = () => {
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
+                    <p className='w-[60%] h-[60%] object-contain big-text'>
+                      S
+                    </p>
+                    {/* <img
+                      src=""
                       alt={experience.company_name}
                       className='w-[60%] h-[60%] object-contain'
-                    />
+                    /> */}
                   </div>
                 }
                 contentStyle={{
