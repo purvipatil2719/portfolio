@@ -1,133 +1,165 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
-import {
-    car,
-    contact,
-    css,
-    estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    pricewise,
-    react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
-    typescript
-} from "../assets/icons";
+export const profile = {
+  name: "Purvi Patil",
+  title: "Site Reliability Engineer",
+  location: "Pune, India",
+  email: "patilpurvi955@gmail.com",
+  phone: "+91 7709713848",
+  summary:
+    "Site Reliability Engineer with hands-on experience in production support, monitoring, and incident management for high-availability systems. Proven ability to analyze complex system issues, perform root cause analysis (RCA), and optimize application and database performance. Skilled in leveraging observability tools, CI/CD pipelines, and automation to improve system reliability and reduce downtime. Adept at collaborating with cross-functional teams to enhance system stability, ensure 99.9% uptime, and drive continuous improvement in production environments.",
+};
 
-export const skills = [
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    }
+export const navLinks = [
+  { href: "#experience", label: "Experience" },
+  { href: "#skills", label: "Skills" },
+  { href: "#projects", label: "Projects" },
+  { href: "#certifications", label: "Certifications" },
+  { href: "#education", label: "Education" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export const experiences = [
-    {
-        title: "Trainee software developer",
-        company_name: "SSM Infotech, Surat, India",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "Dec 2023-Present",
-        points: [
-            "Developed Visitor Management System using Angular and Node.js backend APIs for efficient data processing and user interaction.",
-            "Wrote UI test cases using Selenium for comprehensive coverage of user interfaces.",
-            "Implemented Database client for in-house data storage using Angular and node.js.",
-            "Utilized Angular's templating and data binding features for dynamic content rendering and client-side interactivity in all projects.",
-            "Participated in Agile processes and code reviews to maintain quality and meet deadlines."
-        ],
-    },
-    {
-        title: "Web developer",
-        company_name: "Sankalp soft, Nasik, India",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2022 - April 2022",
-        points: [
-            "Developed robust test automation frameworks using Angular Test Bed and Karma for unit, integration, and end-to-end testing of Angular applications.",
-            "Implemented User Management system for HR and payroll department.",
-            "Wrote clean, reusable code in TypeScript and JavaScript, following object-oriented programming principles and Angular best practices",
-            "Implemented CI/CD pipelines for deployment of Angular applications and Node.js APIs in github actions"
-        ],
-    },
+  {
+    role: "Analyst – SRE / Production Support",
+    client: "Client: Dell Technologies",
+    company: "eClerx Services Ltd.",
+    location: "Mumbai, India",
+    period: "Jan 2025 – Present",
+    current: true,
+    points: [
+      "Provided technical support for web applications built on ASP.NET MVC and JavaScript — troubleshooting application issues, debugging backend logic, and ensuring stable performance across diverse user environments.",
+      "Contributed to maintaining and enhancing test automation frameworks, enabling faster release cycles, reducing testing effort by 30%, and improving defect detection during deployments.",
+      "Supported the implementation and maintenance of a User Management System for HR and payroll operations — resolving functional issues, validating workflows, and reducing manual data entry by 50%.",
+      "Managed application configurations using XStudio, performing database-driven updates and resolving configuration issues without requiring full application redeployment, ensuring minimal downtime.",
+      "Performed SQL Server query optimization including tuning stored procedures and indexing strategies, improving database performance by 20% and resolving latency-related production issues.",
+      "Collaborated with development and QA teams to investigate production incidents, analyze application logs and database queries, and implement fixes to enhance system reliability and stability.",
+    ],
+  },
+  {
+    role: "Trainee – Backend Support & SQL Optimization",
+    company: "SSM Infotech",
+    location: "Surat, India",
+    period: "Aug 2023 – Nov 2024",
+    points: [
+      "Investigated and resolved critical application and database issues on a high-traffic e-commerce platform by analyzing SQL Server logs, query execution plans, and system performance metrics — ensuring seamless data flow for analytics and reporting.",
+      "Designed, developed, and optimized ETL workflows with enhanced validation and troubleshooting mechanisms, reducing testing cycles by 30% and improving overall data processing reliability.",
+      "Supported release and deployment activities using Jenkins CI/CD pipelines and Redgate version control, enabling faster delivery cycles and efficient resolution of production issues.",
+      "Monitored production environments using Splunk, Dynatrace, and Catchpoint — proactively identifying incidents and maintaining 99.9% system uptime.",
+      "Collaborated with cross-functional teams to analyze log data, perform root cause analysis (RCA), and implement fixes — significantly improving system observability and incident response.",
+      "Worked closely with SRE, development, and QA teams to troubleshoot production issues, implement preventive measures, and reduce recurring incidents.",
+      "Applied advanced SQL performance tuning and query optimization techniques to enhance database performance in high-availability, enterprise-scale environments.",
+    ],
+  },
 ];
 
-export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/purvi-patil-8319921b5/',
-    }
+export const skillGroups = [
+  {
+    label: "Programming & Technologies",
+    items: ["C#", "Python", "ASP.NET", "JavaScript", "REST APIs"],
+  },
+  {
+    label: "Cloud & DevOps",
+    items: ["AWS", "CI/CD", "Jenkins", "Git", "Linux", "Docker", "Kubernetes"],
+  },
+  {
+    label: "Monitoring & Observability",
+    items: [
+      "Dynatrace",
+      "Splunk",
+      "Catchpoint",
+      "Application Monitoring",
+      "Log Analysis",
+      "APM",
+      "Alert Monitoring",
+      "Dashboarding",
+    ],
+  },
+  {
+    label: "Support & Troubleshooting",
+    items: [
+      "Incident Management",
+      "Root Cause Analysis (RCA)",
+      "L1/L2 Production Support",
+      "Application Support",
+      "Critical Incident Handling",
+    ],
+  },
+  {
+    label: "Databases",
+    items: [
+      "MS SQL Server",
+      "MongoDB",
+      "SQL Queries",
+      "Stored Procedures",
+      "Database Monitoring",
+    ],
+  },
+];
+
+export const projects = [
+  {
+    title: "E-commerce Platform Production Support",
+    org: "Dell Technologies",
+    period: "Jan 2025 – Present",
+    points: [
+      "Provided production support for Dell's e-commerce platform, troubleshooting application and database issues impacting enterprise clients such as Premier and Responsive.",
+      "Used Splunk and Catchpoint to track system metrics, analyze logs, and identify potential incidents before they affected platform availability.",
+      "Partnered with the SRE team and developers to investigate incidents, conduct root cause analysis, and deploy fixes to improve platform stability.",
+    ],
+    tags: ["Splunk", "Catchpoint", "RCA", "SQL Server"],
+  },
+  {
+    title: "Application Support & User Management System",
+    org: "SSM Infotech",
+    period: "Jan 2024 – Jun 2024",
+    points: [
+      "Provided application support and enhancements for a User Management System used in HR and payroll operations.",
+      "Troubleshot application issues in ASP.NET MVC-based web applications, ensuring smooth functionality and minimal disruption.",
+      "Validated user workflows and resolved functional issues to improve system efficiency and usability.",
+    ],
+    tags: ["ASP.NET MVC", "SQL", "Workflow Validation"],
+  },
+  {
+    title: "Spraying Drone for Grape Farming",
+    org: "Engineering Capstone",
+    period: "Sep 2022 – Apr 2023",
+    points: [
+      "Designed and developed an IoT-enabled automated agriculture spraying drone to optimize pesticide application.",
+      "Improved operational efficiency by 40x through automation, significantly reducing manual intervention and labor dependency.",
+      "Implemented precision spraying techniques, reducing chemical usage while improving crop protection and sustainability.",
+    ],
+    tags: ["IoT", "Automation", "Agritech"],
+  },
+];
+
+export const certifications = [
+  {
+    title: "Advanced Dynatrace with AWS",
+    period: "Mar 2026 – May 2026",
+    description:
+      "Hands-on training in monitoring, observability, and performance analysis of applications in AWS environments. Real-time monitoring, alert configuration, and RCA using Dynatrace and AWS CloudWatch. Skilled in identifying performance bottlenecks, log analysis, and ensuring high availability of cloud production systems.",
+  },
+  {
+    title: "Generative AI",
+    period: "Jan 2025 – Feb 2025",
+    description:
+      "Training on Generative AI fundamentals — core concepts of LLMs, prompt engineering, and practical AI applications. Hands-on exposure to designing effective prompts, optimizing outputs, and leveraging AI tools for real-world problem solving and productivity enhancement.",
+  },
+];
+
+export const education = [
+  {
+    degree: "B.E. — Information Technology",
+    institution: "NDMVP KBT College of Engineering",
+    period: "2019 – 2023",
+  },
+  {
+    degree: "H.S.C.",
+    institution: "Upadhye College of Science",
+    period: "2018 – 2019",
+  },
+  {
+    degree: "S.S.C.",
+    institution: "Shri Mahavir English Medium School",
+    period: "2016 – 2017",
+  },
 ];

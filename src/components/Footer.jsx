@@ -1,28 +1,16 @@
-import { Link } from "react-router-dom";
-
-import { socialLinks } from "../constants";
+import { profile } from "../constants";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
-    <footer className='footer font-poppins'>
-      <hr className='border-slate-200' />
-
-      <div className='footer-container'>
-        <p>
-          © 2023 <strong>Purvi Patil</strong>. All rights reserved.
+    <footer className="border-t border-border bg-background">
+      <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-3 px-6 py-8 sm:flex-row sm:items-center">
+        <p className="text-sm text-muted-foreground">
+          © {year} {profile.name}. Built with care.
         </p>
-
-        <div className='flex gap-3 justify-center items-center'>
-          {socialLinks.map((link) => (
-            <Link key={link.name} to={link.link} target='_blank'>
-              <img
-                src={link.iconUrl}
-                alt={link.name}
-                className='w-6 h-6 object-contain'
-              />
-            </Link>
-          ))}
-        </div>
+        <p className="text-xs text-muted-foreground">
+          {profile.title} · {profile.location}
+        </p>
       </div>
     </footer>
   );
